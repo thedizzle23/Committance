@@ -1,0 +1,488 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B22EFBF91577F03300F53DF9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B22EFBF81577F03300F53DF9 /* UIKit.framework */; };
+		B22EFBFB1577F03300F53DF9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B22EFBFA1577F03300F53DF9 /* Foundation.framework */; };
+		B22EFBFD1577F03300F53DF9 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B22EFBFC1577F03300F53DF9 /* CoreGraphics.framework */; };
+		B22EFBFF1577F03300F53DF9 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B22EFBFE1577F03300F53DF9 /* CoreData.framework */; };
+		B22EFC051577F03300F53DF9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B22EFC031577F03300F53DF9 /* InfoPlist.strings */; };
+		B22EFC071577F03300F53DF9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B22EFC061577F03300F53DF9 /* main.m */; };
+		B22EFC0B1577F03300F53DF9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B22EFC0A1577F03300F53DF9 /* AppDelegate.m */; };
+		B22EFC0E1577F03300F53DF9 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B22EFC0C1577F03300F53DF9 /* MainStoryboard_iPhone.storyboard */; };
+		B22EFC111577F03300F53DF9 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B22EFC0F1577F03300F53DF9 /* MainStoryboard_iPad.storyboard */; };
+		B22EFC141577F03300F53DF9 /* FineAndDandyCash.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B22EFC121577F03300F53DF9 /* FineAndDandyCash.xcdatamodeld */; };
+		B22EFC171577F03300F53DF9 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B22EFC161577F03300F53DF9 /* MainViewController.m */; };
+		B22EFC1A1577F03300F53DF9 /* FlipsideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B22EFC191577F03300F53DF9 /* FlipsideViewController.m */; };
+		B22EFC221577F03300F53DF9 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B22EFC211577F03300F53DF9 /* SenTestingKit.framework */; };
+		B22EFC231577F03300F53DF9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B22EFBF81577F03300F53DF9 /* UIKit.framework */; };
+		B22EFC241577F03300F53DF9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B22EFBFA1577F03300F53DF9 /* Foundation.framework */; };
+		B22EFC251577F03300F53DF9 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B22EFBFE1577F03300F53DF9 /* CoreData.framework */; };
+		B22EFC2D1577F03300F53DF9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B22EFC2B1577F03300F53DF9 /* InfoPlist.strings */; };
+		B22EFC301577F03300F53DF9 /* FineAndDandyCashTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B22EFC2F1577F03300F53DF9 /* FineAndDandyCashTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B22EFC261577F03300F53DF9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B22EFBEB1577F03300F53DF9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B22EFBF31577F03300F53DF9;
+			remoteInfo = FineAndDandyCash;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B22EFBF41577F03300F53DF9 /* FineAndDandyCash.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FineAndDandyCash.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B22EFBF81577F03300F53DF9 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B22EFBFA1577F03300F53DF9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B22EFBFC1577F03300F53DF9 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B22EFBFE1577F03300F53DF9 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		B22EFC021577F03300F53DF9 /* FineAndDandyCash-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FineAndDandyCash-Info.plist"; sourceTree = "<group>"; };
+		B22EFC041577F03300F53DF9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B22EFC061577F03300F53DF9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B22EFC081577F03300F53DF9 /* FineAndDandyCash-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FineAndDandyCash-Prefix.pch"; sourceTree = "<group>"; };
+		B22EFC091577F03300F53DF9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B22EFC0A1577F03300F53DF9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B22EFC0D1577F03300F53DF9 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		B22EFC101577F03300F53DF9 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		B22EFC131577F03300F53DF9 /* FineAndDandyCash.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FineAndDandyCash.xcdatamodel; sourceTree = "<group>"; };
+		B22EFC151577F03300F53DF9 /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		B22EFC161577F03300F53DF9 /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		B22EFC181577F03300F53DF9 /* FlipsideViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FlipsideViewController.h; sourceTree = "<group>"; };
+		B22EFC191577F03300F53DF9 /* FlipsideViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FlipsideViewController.m; sourceTree = "<group>"; };
+		B22EFC201577F03300F53DF9 /* FineAndDandyCashTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FineAndDandyCashTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B22EFC211577F03300F53DF9 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		B22EFC2A1577F03300F53DF9 /* FineAndDandyCashTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FineAndDandyCashTests-Info.plist"; sourceTree = "<group>"; };
+		B22EFC2C1577F03300F53DF9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B22EFC2E1577F03300F53DF9 /* FineAndDandyCashTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FineAndDandyCashTests.h; sourceTree = "<group>"; };
+		B22EFC2F1577F03300F53DF9 /* FineAndDandyCashTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FineAndDandyCashTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B22EFBF11577F03300F53DF9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B22EFBF91577F03300F53DF9 /* UIKit.framework in Frameworks */,
+				B22EFBFB1577F03300F53DF9 /* Foundation.framework in Frameworks */,
+				B22EFBFD1577F03300F53DF9 /* CoreGraphics.framework in Frameworks */,
+				B22EFBFF1577F03300F53DF9 /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B22EFC1C1577F03300F53DF9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B22EFC221577F03300F53DF9 /* SenTestingKit.framework in Frameworks */,
+				B22EFC231577F03300F53DF9 /* UIKit.framework in Frameworks */,
+				B22EFC241577F03300F53DF9 /* Foundation.framework in Frameworks */,
+				B22EFC251577F03300F53DF9 /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B22EFBE91577F03300F53DF9 = {
+			isa = PBXGroup;
+			children = (
+				B22EFC001577F03300F53DF9 /* FineAndDandyCash */,
+				B22EFC281577F03300F53DF9 /* FineAndDandyCashTests */,
+				B22EFBF71577F03300F53DF9 /* Frameworks */,
+				B22EFBF51577F03300F53DF9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B22EFBF51577F03300F53DF9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B22EFBF41577F03300F53DF9 /* FineAndDandyCash.app */,
+				B22EFC201577F03300F53DF9 /* FineAndDandyCashTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B22EFBF71577F03300F53DF9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B22EFBF81577F03300F53DF9 /* UIKit.framework */,
+				B22EFBFA1577F03300F53DF9 /* Foundation.framework */,
+				B22EFBFC1577F03300F53DF9 /* CoreGraphics.framework */,
+				B22EFBFE1577F03300F53DF9 /* CoreData.framework */,
+				B22EFC211577F03300F53DF9 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B22EFC001577F03300F53DF9 /* FineAndDandyCash */ = {
+			isa = PBXGroup;
+			children = (
+				B22EFC091577F03300F53DF9 /* AppDelegate.h */,
+				B22EFC0A1577F03300F53DF9 /* AppDelegate.m */,
+				B22EFC0C1577F03300F53DF9 /* MainStoryboard_iPhone.storyboard */,
+				B22EFC0F1577F03300F53DF9 /* MainStoryboard_iPad.storyboard */,
+				B22EFC151577F03300F53DF9 /* MainViewController.h */,
+				B22EFC161577F03300F53DF9 /* MainViewController.m */,
+				B22EFC181577F03300F53DF9 /* FlipsideViewController.h */,
+				B22EFC191577F03300F53DF9 /* FlipsideViewController.m */,
+				B22EFC121577F03300F53DF9 /* FineAndDandyCash.xcdatamodeld */,
+				B22EFC011577F03300F53DF9 /* Supporting Files */,
+			);
+			path = FineAndDandyCash;
+			sourceTree = "<group>";
+		};
+		B22EFC011577F03300F53DF9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B22EFC021577F03300F53DF9 /* FineAndDandyCash-Info.plist */,
+				B22EFC031577F03300F53DF9 /* InfoPlist.strings */,
+				B22EFC061577F03300F53DF9 /* main.m */,
+				B22EFC081577F03300F53DF9 /* FineAndDandyCash-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B22EFC281577F03300F53DF9 /* FineAndDandyCashTests */ = {
+			isa = PBXGroup;
+			children = (
+				B22EFC2E1577F03300F53DF9 /* FineAndDandyCashTests.h */,
+				B22EFC2F1577F03300F53DF9 /* FineAndDandyCashTests.m */,
+				B22EFC291577F03300F53DF9 /* Supporting Files */,
+			);
+			path = FineAndDandyCashTests;
+			sourceTree = "<group>";
+		};
+		B22EFC291577F03300F53DF9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B22EFC2A1577F03300F53DF9 /* FineAndDandyCashTests-Info.plist */,
+				B22EFC2B1577F03300F53DF9 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B22EFBF31577F03300F53DF9 /* FineAndDandyCash */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B22EFC331577F03300F53DF9 /* Build configuration list for PBXNativeTarget "FineAndDandyCash" */;
+			buildPhases = (
+				B22EFBF01577F03300F53DF9 /* Sources */,
+				B22EFBF11577F03300F53DF9 /* Frameworks */,
+				B22EFBF21577F03300F53DF9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FineAndDandyCash;
+			productName = FineAndDandyCash;
+			productReference = B22EFBF41577F03300F53DF9 /* FineAndDandyCash.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B22EFC1F1577F03300F53DF9 /* FineAndDandyCashTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B22EFC361577F03400F53DF9 /* Build configuration list for PBXNativeTarget "FineAndDandyCashTests" */;
+			buildPhases = (
+				B22EFC1B1577F03300F53DF9 /* Sources */,
+				B22EFC1C1577F03300F53DF9 /* Frameworks */,
+				B22EFC1D1577F03300F53DF9 /* Resources */,
+				B22EFC1E1577F03300F53DF9 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B22EFC271577F03300F53DF9 /* PBXTargetDependency */,
+			);
+			name = FineAndDandyCashTests;
+			productName = FineAndDandyCashTests;
+			productReference = B22EFC201577F03300F53DF9 /* FineAndDandyCashTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B22EFBEB1577F03300F53DF9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "Developmental Applications";
+			};
+			buildConfigurationList = B22EFBEE1577F03300F53DF9 /* Build configuration list for PBXProject "FineAndDandyCash" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B22EFBE91577F03300F53DF9;
+			productRefGroup = B22EFBF51577F03300F53DF9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B22EFBF31577F03300F53DF9 /* FineAndDandyCash */,
+				B22EFC1F1577F03300F53DF9 /* FineAndDandyCashTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B22EFBF21577F03300F53DF9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B22EFC051577F03300F53DF9 /* InfoPlist.strings in Resources */,
+				B22EFC0E1577F03300F53DF9 /* MainStoryboard_iPhone.storyboard in Resources */,
+				B22EFC111577F03300F53DF9 /* MainStoryboard_iPad.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B22EFC1D1577F03300F53DF9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B22EFC2D1577F03300F53DF9 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B22EFC1E1577F03300F53DF9 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B22EFBF01577F03300F53DF9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B22EFC071577F03300F53DF9 /* main.m in Sources */,
+				B22EFC0B1577F03300F53DF9 /* AppDelegate.m in Sources */,
+				B22EFC141577F03300F53DF9 /* FineAndDandyCash.xcdatamodeld in Sources */,
+				B22EFC171577F03300F53DF9 /* MainViewController.m in Sources */,
+				B22EFC1A1577F03300F53DF9 /* FlipsideViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B22EFC1B1577F03300F53DF9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B22EFC301577F03300F53DF9 /* FineAndDandyCashTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B22EFC271577F03300F53DF9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B22EFBF31577F03300F53DF9 /* FineAndDandyCash */;
+			targetProxy = B22EFC261577F03300F53DF9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B22EFC031577F03300F53DF9 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B22EFC041577F03300F53DF9 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		B22EFC0C1577F03300F53DF9 /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B22EFC0D1577F03300F53DF9 /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		B22EFC0F1577F03300F53DF9 /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B22EFC101577F03300F53DF9 /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		B22EFC2B1577F03300F53DF9 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B22EFC2C1577F03300F53DF9 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B22EFC311577F03300F53DF9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B22EFC321577F03300F53DF9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B22EFC341577F03300F53DF9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FineAndDandyCash/FineAndDandyCash-Prefix.pch";
+				INFOPLIST_FILE = "FineAndDandyCash/FineAndDandyCash-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B22EFC351577F03400F53DF9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FineAndDandyCash/FineAndDandyCash-Prefix.pch";
+				INFOPLIST_FILE = "FineAndDandyCash/FineAndDandyCash-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		B22EFC371577F03400F53DF9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/FineAndDandyCash.app/FineAndDandyCash";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FineAndDandyCash/FineAndDandyCash-Prefix.pch";
+				INFOPLIST_FILE = "FineAndDandyCashTests/FineAndDandyCashTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		B22EFC381577F03400F53DF9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/FineAndDandyCash.app/FineAndDandyCash";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FineAndDandyCash/FineAndDandyCash-Prefix.pch";
+				INFOPLIST_FILE = "FineAndDandyCashTests/FineAndDandyCashTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B22EFBEE1577F03300F53DF9 /* Build configuration list for PBXProject "FineAndDandyCash" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B22EFC311577F03300F53DF9 /* Debug */,
+				B22EFC321577F03300F53DF9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B22EFC331577F03300F53DF9 /* Build configuration list for PBXNativeTarget "FineAndDandyCash" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B22EFC341577F03300F53DF9 /* Debug */,
+				B22EFC351577F03400F53DF9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B22EFC361577F03400F53DF9 /* Build configuration list for PBXNativeTarget "FineAndDandyCashTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B22EFC371577F03400F53DF9 /* Debug */,
+				B22EFC381577F03400F53DF9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		B22EFC121577F03300F53DF9 /* FineAndDandyCash.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				B22EFC131577F03300F53DF9 /* FineAndDandyCash.xcdatamodel */,
+			);
+			currentVersion = B22EFC131577F03300F53DF9 /* FineAndDandyCash.xcdatamodel */;
+			path = FineAndDandyCash.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = B22EFBEB1577F03300F53DF9 /* Project object */;
+}
